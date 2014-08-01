@@ -25,11 +25,11 @@ for(var i=0;i<lines.length;i++){
 	}
 	var simple=[];
 	for(var k=0;k<sorted.length;k++){
-		simple.push(sorted[k][0]+"times:"+sorted[k][1]);
+		simple.push(sorted[k][0]+"-letters: "+sorted[k][1]+" times");
 	}
 }
-console.log('total letters:',letters,'total lines:',words,'avg:',letters/words);
-console.log(JSON.stringify(arr));
+console.log('total letters: ',letters,' total lines: ',words,' avg: ',letters/words);
+//console.log(JSON.stringify(arr));
 console.log(simple.join("\n"));
 
 
